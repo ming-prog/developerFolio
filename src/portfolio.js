@@ -299,10 +299,11 @@ const contactInfo = {
 
 // Twitter Section
 
-const twitterDetails = {
-userName: "WatonBTC", 
-display: true, 
-isHireable: false 
+const contactInfo = {
+  userName: "WatonBTC", 
+  display: true, 
+  isHireable: false, 
+};
 
 export {
   illustration,
