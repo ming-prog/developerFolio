@@ -331,3 +331,4 @@ export {
   resumeSection, // Ensure 'resumeSection' is exported
   twitterDetails, // Ensure 'twitterDetails' is exported
 };
+
