@@ -302,7 +302,6 @@ const contactInfo = {
 const twitterDetails = {
 userName: "WatonBTC", 
 display: true, 
-const isHireable = false;
 
 export {
   illustration,
