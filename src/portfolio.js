@@ -308,6 +308,5 @@ export {
   blogSection,
   talkSection,
   podcastSection,
-  contactInfo,
-  isHireable
+  contactInfo
 };
