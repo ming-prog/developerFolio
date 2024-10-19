@@ -302,7 +302,7 @@ const contactInfo = {
 const twitterDetails = {
 userName: "WatonBTC", 
 display: true, 
-const isHireable = false; 
+isHireable: false 
 
 export {
   illustration,
