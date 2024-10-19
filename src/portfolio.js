@@ -20,32 +20,28 @@ const illustration = {
 };
 
 const greeting = {
- username: "ZHAO MINGHONG", 
-  title: "Hi all, I'm ZHAO", 
-  subTitle: emoji(
-    "A passionate student with a love for coding and technology!" 
-  ),
-  resumeLink:
-    "", 
-  displayGreeting: true 
+  username: "ZHAO MINGHONG",
+  title: "Hi all, I'm ZHAO",
+  subTitle: emoji("A passionate student with a love for coding and technology!"),
+  resumeLink: "",
+  displayGreeting: true
 };
+
 // Social Media Links
 
 const socialMediaLinks = {
   github: "https://github.com/ming-prog",
   gmail: "ming13288075992@gmail.com",
-  twitter: "https://twitter.com/WatonBTC", 
-  display: true 
+  twitter: "https://twitter.com/WatonBTC",
+  display: true
 };
 
 // Skills Section
 
 const skillsSection = {
-title: "What I do", 
+  title: "What I do",
   subTitle: "Students at Lingnan University",
-  skills: [
-    emoji("🎙️ Radio and television hosting and production") 
-  ],
+  skills: [emoji("🎙️ Radio and television hosting and production")],
   display: true
 };
 
@@ -79,11 +75,11 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true, // Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Frontend/Design", // Insert stack or technology you have experience in
+      progressPercentage: "90%" // Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -94,13 +90,13 @@ const techStack = {
       progressPercentage: "60%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false // Set true to display codersrank badges section need to change your username
 };
 
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, // Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -118,14 +114,14 @@ const workExperiences = {
       company: "Quora",
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
       role: "Software Engineer Intern",
       company: "Airbnb",
       companylogo: require("./assets/images/airbnbLogo.png"),
       date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
 };
@@ -153,7 +149,6 @@ const bigProjects = {
           name: "Visit Website",
           url: "http://saayahealth.com/"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
@@ -221,7 +216,7 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -281,28 +276,22 @@ const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
-  // Please Provide with Your Podcast embeded Link
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
   display: true // Set false to hide this section, defaults to true
 };
 
-// Resume Section
+// Contact Info Section
 
 const contactInfo = {
- title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+85246712213", 
-  email_address: "ming13288075992@gmail.com" 
-};
-
-// Twitter Section
-
-const contactInfo = {
-  userName: "WatonBTC", 
-  display: true, 
-  isHireable: false, 
+  number: "+85246712213",
+  email_address: "ming13288075992@gmail.com",
+  userName: "WatonBTC",
+  isHireable: false,
+  display: true // Set true to display this section
 };
 
 export {
@@ -320,7 +309,5 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails,
-  isHireable,
-  resumeSection
+  isHireable
 };
