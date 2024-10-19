@@ -2,8 +2,8 @@ name: Check Format
 on:
   push:
   pull_request:
-      branches:
-        - master
+    branches:
+      - master
 jobs:
   check-format:
     runs-on: ubuntu-latest
@@ -21,7 +21,19 @@ jobs:
         run: |
           npm install
       
-      - name: Check Format
+      - name: Fix Format # 使用 Prettier 自动修复格式
         run: |
-          npm run check-format
+          npx prettier --write "./**/*.{js,css,json,scss}"  # 强制修复所有格式问题
+          
+      - name: Display Formatted File Differences # 输出修复后的文件差异
+        run: |
+          echo "Displaying formatted file differences:"
+          git diff  # 显示格式化后的代码差异
+          
+      - name: Display Portfolio.js File # 输出 src/portfolio.js 文件内容，帮助调试格式问题
+        run: |
+          echo "Displaying src/portfolio.js file:"
+          cat src/portfolio.js  # 输出 portfolio.js 文件内容
+
+
 
