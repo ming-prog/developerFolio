@@ -294,6 +294,13 @@ const contactInfo = {
   display: true, // Ensure last line has a comma
 };
 
+// Resume Section
+const resumeSection = {
+  title: "Resume",
+  subtitle: "Feel free to download my resume",
+  display: true, // Set false to hide this section, defaults to true
+};
+
 // Hireability
 const isHireable = false; // Set this based on whether you're open for job opportunities
 
@@ -312,5 +319,6 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  isHireable, // 单独导出 'isHireable'
+  isHireable, // 确保 'isHireable' 被导出
+  resumeSection, // 确保 'resumeSection' 被导出
 };
