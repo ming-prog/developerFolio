@@ -294,6 +294,9 @@ const contactInfo = {
   display: true, // Ensure last line has a comma
 };
 
+// Hireability
+const isHireable = false; // Set this based on whether you're open for job opportunities
+
 export {
   illustration,
   greeting,
@@ -309,4 +312,5 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
+  isHireable, // 单独导出 'isHireable'
 };
