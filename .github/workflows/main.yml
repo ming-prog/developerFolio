@@ -1,0 +1,46 @@
+name: Build and Test
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the code
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Set up Node.js environment
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      # Install dependencies
+      - name: Install dependencies
+        run: |
+          npm install
+
+      # Fix vulnerabilities and update packages
+      - name: Fix vulnerabilities and update
+        run: |
+          npm audit fix
+          npm update
+          npx update-browserslist-db@latest
+
+      # Build the project
+      - name: Build project
+        run: |
+          npm run build
+
+      # Run tests
+      - name: Run tests
+        run: |
+          npm run test
