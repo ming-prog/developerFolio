@@ -305,6 +305,7 @@ const resumeSection = {
 const isHireable = false; // Set this based on whether you're open for job opportunities
 
 export {
+  splashScreen, // Ensure splashScreen is exported
   illustration,
   greeting,
   socialMediaLinks,
@@ -319,6 +320,6 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  isHireable, // 确保 'isHireable' 被导出
-  resumeSection, // 确保 'resumeSection' 被导出
+  isHireable, // Ensure 'isHireable' is exported
+  resumeSection, // Ensure 'resumeSection' is exported
 };
