@@ -294,6 +294,13 @@ const contactInfo = {
   display: true, // Ensure last line has a comma
 };
 
+// Twitter Section
+
+const twitterDetails = {
+  userName: "WatonBTC", // Replace with your Twitter username without "@"
+  display: true, // Set true to display this section, defaults to false
+};
+
 // Resume Section
 const resumeSection = {
   title: "Resume",
@@ -305,7 +312,7 @@ const resumeSection = {
 const isHireable = false; // Set this based on whether you're open for job opportunities
 
 export {
-  splashScreen, // Ensure splashScreen is exported
+  splashScreen,
   illustration,
   greeting,
   socialMediaLinks,
@@ -322,4 +329,5 @@ export {
   contactInfo,
   isHireable, // Ensure 'isHireable' is exported
   resumeSection, // Ensure 'resumeSection' is exported
+  twitterDetails, // Ensure 'twitterDetails' is exported
 };
