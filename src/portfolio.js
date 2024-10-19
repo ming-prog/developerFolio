@@ -10,13 +10,13 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 2000, // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true, // Set to false to use static SVG
 };
 
 const greeting = {
@@ -24,7 +24,7 @@ const greeting = {
   title: "Hi all, I'm ZHAO",
   subTitle: emoji("A passionate student with a love for coding and technology!"),
   resumeLink: "",
-  displayGreeting: true
+  displayGreeting: true,
 };
 
 // Social Media Links
@@ -33,7 +33,7 @@ const socialMediaLinks = {
   github: "https://github.com/ming-prog",
   gmail: "ming13288075992@gmail.com",
   twitter: "https://twitter.com/WatonBTC",
-  display: true
+  display: true, // Ensure last line has a comma
 };
 
 // Skills Section
@@ -42,7 +42,7 @@ const skillsSection = {
   title: "What I do",
   subTitle: "Students at Lingnan University",
   skills: [emoji("🎙️ Radio and television hosting and production")],
-  display: true
+  display: true, // Ensure last line has a comma
 };
 
 // Education Section
@@ -58,8 +58,8 @@ const educationInfo = {
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      ],
     },
     {
       schoolName: "Stanford University",
@@ -67,9 +67,9 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2013 - April 2017",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
-  ]
+      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"],
+    },
+  ],
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -79,18 +79,18 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", // Insert stack or technology you have experience in
-      progressPercentage: "90%" // Insert relative proficiency in percentage
+      progressPercentage: "90%", // Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "70%",
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
-    }
+      progressPercentage: "60%",
+    },
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to change your username
+  displayCodersrank: false, // Set true to display codersrank badges section need to change your username
 };
 
 // Work experience section
@@ -106,24 +106,24 @@ const workExperiences = {
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      ],
     },
     {
       role: "Front-End Developer",
       company: "Quora",
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
       role: "Software Engineer Intern",
       company: "Airbnb",
       companylogo: require("./assets/images/airbnbLogo.png"),
       date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
-  ]
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+  ],
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -131,7 +131,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Ensure last line has a comma
 };
 
 // Some big projects you have worked on
@@ -147,9 +147,9 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-      ]
+          url: "http://saayahealth.com/",
+        },
+      ],
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
@@ -158,12 +158,12 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
+          url: "http://nextu.se/",
+        },
+      ],
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Ensure last line has a comma
 };
 
 // Achievement Section
@@ -184,17 +184,17 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing",
         },
         {
           name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing",
         },
         {
           name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html",
+        },
+      ],
     },
     {
       title: "Google Assistant Action",
@@ -205,9 +205,9 @@ const achievementSection = {
       footerLink: [
         {
           name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en",
+        },
+      ],
     },
 
     {
@@ -219,12 +219,12 @@ const achievementSection = {
         { name: "Certification", url: "" },
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
+          url: "https://pakistan-olx-1.firebaseapp.com/",
+        },
+      ],
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Ensure last line has a comma
 };
 
 // Blogs Section
@@ -239,16 +239,16 @@ const blogSection = {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?",
     },
     {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
       title: "Why REACT is The Best?",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
+        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.",
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Ensure last line has a comma
 };
 
 // Talks Sections
@@ -264,10 +264,10 @@ const talkSection = {
       title: "Build Actions For Google Assistant",
       subtitle: "Codelab at GDG DevFest Karachi 2019",
       slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
+      event_url: "https://www.facebook.com/events/2339906106275053/",
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Ensure last line has a comma
 };
 
 // Podcast Section
@@ -277,9 +277,9 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo",
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true, // Ensure last line has a comma
 };
 
 // Contact Info Section
@@ -291,7 +291,7 @@ const contactInfo = {
   email_address: "ming13288075992@gmail.com",
   userName: "WatonBTC",
   isHireable: false,
-  display: true // Set true to display this section
+  display: true, // Ensure last line has a comma
 };
 
 export {
@@ -308,5 +308,5 @@ export {
   blogSection,
   talkSection,
   podcastSection,
-  contactInfo
+  contactInfo,
 };
